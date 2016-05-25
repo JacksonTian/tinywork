@@ -28,7 +28,6 @@ yield tinywork({
 });
 
 // =>
-
 {
   a: 1,
   b: 2,
@@ -46,7 +45,6 @@ await tinywork({
 });
 
 // =>
-
 {
   a: 1,
   b: 2,
@@ -66,7 +64,7 @@ yield tinywork([
 ]);
 
 // =>
-// [1, 2, 'c'];
+[1, 2, 'c'];
 ```
 
 And use `async/await` like this:
@@ -79,8 +77,11 @@ await tinywork([
 ]);
 
 // =>
-// [1, 2, 'c'];
+[1, 2, 'c'];
 ```
+
+### Others
+Just return resolved Promise with value.
 
 ## License
 
