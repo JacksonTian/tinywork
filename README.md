@@ -2,6 +2,21 @@
 
 只做了一点微小的工作。
 
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![Coverage Status](https://coveralls.io/repos/JacksonTian/tinywork/badge.svg?branch=master&service=github)](https://coveralls.io/github/JacksonTian/tinywork?branch=master)
+[![David deps][david-image]][david-url]
+[![npm download][download-image]][download-url]
+
+[npm-image]: https://img.shields.io/npm/v/tinywork.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/tinywork
+[travis-image]: https://img.shields.io/travis/JacksonTian/tinywork.svg?style=flat-square
+[travis-url]: https://travis-ci.org/JacksonTian/tinywork
+[david-image]: https://img.shields.io/david/JacksonTian/tinywork.svg?style=flat-square
+[david-url]: https://david-dm.org/JacksonTian/tinywork
+[download-image]: https://img.shields.io/npm/dm/tinywork.svg?style=flat-square
+[download-url]: https://npmjs.org/package/tinywork
+
 ## Installation
 
 You can install it as dependency via `npm`.
