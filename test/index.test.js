@@ -5,7 +5,7 @@ var tinywork = require('../lib/index');
 
 describe('tinywork', function () {
   it('array should ok', function* () {
-    var arr = yield tinywork.array([
+    var arr = yield tinywork([
       Promise.resolve(1),
       Promise.resolve(2),
       'c'
@@ -14,7 +14,7 @@ describe('tinywork', function () {
   });
 
   it('object should ok', function* () {
-    var obj = yield tinywork.object({
+    var obj = yield tinywork({
       a: Promise.resolve(1),
       b: Promise.resolve(2),
       c: 'c'
@@ -24,5 +24,10 @@ describe('tinywork', function () {
       b: 2,
       c: 'c'
     });
+  });
+
+  it('other type should ok', function* () {
+    var obj = yield tinywork(true);
+    expect(obj).to.be(true);
   });
 });
